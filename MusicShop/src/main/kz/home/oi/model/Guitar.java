@@ -1,4 +1,6 @@
- public class Guitar extends Instrument {
+package kz.home.oi.model;
+
+public class Guitar extends Instrument {
 
 
      @Override

@@ -1,3 +1,5 @@
+package kz.home.oi.model;
+
 import java.math.BigDecimal;
 
 public abstract class Instrument {
