@@ -21,7 +21,7 @@ public abstract class Instrument {
         return firm;
     }
 
-    public void setFirm(String color) {
+    public void setFirm(String firm) {
         this.firm = firm;
     }
 
@@ -29,8 +29,17 @@ public abstract class Instrument {
         return material;
     }
 
-    public void setMaterial(String Material) {
+    public void setMaterial(String material) {
         this.material = material;
+    }
+
+    @Override
+    public String toString() {
+        return "Instrument{" +
+                "price=" + price +
+                ", firm='" + firm + '\'' +
+                ", material='" + material + '\'' +
+                '}';
     }
 }
 
